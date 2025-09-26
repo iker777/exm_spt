@@ -6,7 +6,7 @@
 4. Haz el examen
 5. Cuando lo temines, haz merge a la rama main
 6. Sube la rama main: git push
-7. Haz un fork (No hace falta que hagas pull si tus compañeros han subido sus exámenes)
+7. Haz un Pull Request (No hace falta que hagas pull si tus compañeros han subido sus exámenes)
 
 
 ## Tareas
@@ -21,7 +21,7 @@
 - Fondo de fuera del formulario: #eff3f4;
 - Formulario: #ffffff;
 - Bordes: #217093;
-- Crea un index.html y un style.css
+- Crea un index-minombre.html y un style-minombre.css
 
 ## Tarea 2:
 
