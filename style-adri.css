@@ -5,59 +5,64 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
 .cuerpo {
     background-color: #eff3f4;
 }
 
-.cabecera {
-    background-color: #4eb8dd;
-    ;
-}
+
+.cabecera {}
 
 .contenedor {
     width: 100%;
     text-align: center;
 }
 
+
 .contenedor__seccion {
-    height: 100vh;
     background-color: #f3fafd;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 50px;
-    padding-bottom: 50px;
+    width: 50%;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 10px;
 }
 
 .arriba__imagen {
     height: 200px;
-    ;
     border-radius: 50%;
     border: 2px solid #217093;
-    margin-bottom: 50px;
-    margin-top: 30px;
+    margin: 30px;
 }
 
-.email {
-    color: #217093;
-    margin-bottom: 50px;
-}
 
+.email,
 .contrasenna {
     color: #217093;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+}
+
+.hueco {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .chequear {
-    font-size: small;
+    display: block;
+    margin: 10px 0;
+    color: #217093;
+    font-size: 0.9rem;
 }
-
 
 .login {
     background-color: #4eb8dd;
     color: #ffffff;
-    margin-bottom: 50px;
+    padding: 10px 20px;
+    border-radius: 5px;
     text-decoration: none;
-
+    margin-top: 30px;
 }
 
 .lateral {}
