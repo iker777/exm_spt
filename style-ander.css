@@ -1,0 +1,78 @@
+:root {
+    --fondo-fuera-form:#eff3f4;
+    --bordes:#217093;
+    --background-form:#f3fafd;
+    --main--color:#4eb8dd;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(Roboto-Ander/Roboto-VariableFont_wdth\,wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+.fondo{
+    background-color: var(--fondo-fuera-form);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    border-radius: 8px;
+    background-color: white;
+    margin: 16px;
+    height: 100%;
+    padding: 32px;
+    
+}
+.card__img{
+    margin: 16px;
+    border-radius: 50%;
+    border: var(--bordes) solid 2px;
+    height: 50%;
+}
+.formulario{
+    color: var(--bordes);
+    font-family: "Roboto";
+}
+.form__label{
+    font-weight: bold;
+}
+.form__input{
+    margin-bottom: 12px;
+    margin-top: 4px;
+    background-color: var(--background-form);
+    border: var(--bordes) 2px solid;
+    padding: 8px;
+    border-radius: 4px;
+}
+.form__input::placeholder{
+    color: var(--bordes);
+    padding: 8px;
+}
+.form__checkbox{
+    margin-left: 64px;
+    margin-top: 8px;
+}
+.form__checkbox:checked{
+    border: var(--bordes);
+}
+.span{
+    font-weight: bold;
+    padding: 2px;
+    font-size: 14px;
+}
+.button{
+    margin-top: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    font-size: 16px;
+    background-color: var(--main--color);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
