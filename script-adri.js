@@ -1,8 +1,7 @@
 
-
 // Ejercicio 1
 
-let edad = prompt("¿Cuantos años tienes?")
+let edad = Number(prompt("¿Cuantos años tienes?"))
 
 if (edad >= 0 && edad < 18) {
     console.log("Eres menor de edad")
@@ -14,7 +13,13 @@ if (edad >= 0 && edad < 18) {
 
 // Ejercicio 2
 
-for (let i = 1; i <= 5; i++) {
-    console.log(i)
+let numero = Number(prompt("Dime un número"))
+
+while (numero > 1) {
+    console.log(numero)
+    numero = numero - 1
 }
+console.log(numero)
+
+
 
