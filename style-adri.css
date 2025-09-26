@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cuerpo {
+    background-color: #eff3f4;
+}
+
+.cabecera {
+    background-color: #4eb8dd;
+    ;
+}
+
+.contenedor {
+    width: 100%;
+    text-align: center;
+}
+
+.contenedor__seccion {
+    height: 100vh;
+    background-color: #f3fafd;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.arriba__imagen {
+    height: 200px;
+    ;
+    border-radius: 50%;
+    border: 2px solid #217093;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.email {
+    color: #217093;
+    margin-bottom: 50px;
+}
+
+.contrasenna {
+    color: #217093;
+    margin-bottom: 50px;
+}
+
+.chequear {
+    font-size: small;
+}
+
+
+.login {
+    background-color: #4eb8dd;
+    color: #ffffff;
+    margin-bottom: 50px;
+    text-decoration: none;
+
+}
+
+.lateral {}
+
+.pie {}
