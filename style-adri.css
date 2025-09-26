@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.cuerpo {
+    background-color: #eff3f4;
+}
+
+
+.cabecera {}
+
+.contenedor {
+    width: 100%;
+    text-align: center;
+}
+
+
+.contenedor__seccion {
+    background-color: #f3fafd;
+    width: 50%;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.arriba__imagen {
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #217093;
+    margin: 30px;
+}
+
+
+.email,
+.contrasenna {
+    color: #217093;
+    margin-bottom: 10px;
+}
+
+.hueco {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.chequear {
+    display: block;
+    margin: 10px 0;
+    color: #217093;
+    font-size: 0.9rem;
+}
+
+.login {
+    background-color: #4eb8dd;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.lateral {}
+
+.pie {}
