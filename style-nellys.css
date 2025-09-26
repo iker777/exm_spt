@@ -1,0 +1,109 @@
+:root{
+    --color-main:#4eb8dd;
+    --color-form-fondo:#f3fafd;
+    --color-form-fondo-ext:#eff3f4;
+    --color-form: #ffffff;
+    --color-borde:#217093;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    background-color: var(--color-form-fondo-ext);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card{
+    background-color: #ffffff;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 32px;
+    border-radius: 16px;
+    border: 2px solid var(--color-borde);
+}
+.card--img{
+    width: 50%;
+    border:2px solid var(--color-borde);
+    border-radius: 50%;
+}
+.card--form{
+    display: flex;
+    flex-direction: column;
+    color: var(--color-borde);
+    font-weight: bold;
+    padding: 16px;
+    font-size: 24px;
+    width: 100%;
+}
+input{
+    border:2px solid var(--color-borde);
+    border-radius: 8px;
+    background-color: var(--color-form-fondo);
+    padding: 8px;
+}
+label{
+    padding-bottom: 8px;
+}
+.form--btn{
+    background-color: var(--color-main);
+    color:var(--color-form);
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+.push{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    align-items: center;
+}
+
+/*******Mediaqueris****************/
+@media (max-width: 768px){
+    .card{
+        width: 90%;
+        padding: 16px;
+    }
+    .card--img{
+        width: 70%;
+        margin-bottom: 16px;
+    }
+    .card--form{
+        font-size: 20px;
+    }
+}
+@media (max-width: 480px){
+    .card--img{
+        width: 90%;
+        margin-bottom: 16px;
+    }
+    .card--form{
+        font-size: 16px;
+    }
+    .form--btn{
+        font-size: 24px;
+    }
+    
+}
+@media (max-width: 320px){
+    .card--img{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .card--form{
+        font-size: 14px;
+    }
+    .form--btn{
+        font-size: 20px;
+    }
+    
+}
